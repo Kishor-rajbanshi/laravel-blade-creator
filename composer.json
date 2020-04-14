@@ -1,0 +1,26 @@
+{
+    "name": "kishor/blade-creator",
+    "description": "Cli blade creating commands",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kishor Rajbanshi",
+            "email": "kishorrajbanshi00@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Kishor\\BladeCreator\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kishor\\BladeCreator\\Providers\\BladeCreatorProvider"
+            ]
+        }
+    }
+}
